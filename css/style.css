@@ -1,0 +1,82 @@
+body{
+    background-color: purple;
+    overflow-x: hidden;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.body1{
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+}
+.text2{
+    position: absolute;
+    bottom: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    font-family: sans-serif;
+    left: 10%;
+}
+.text1{
+    position: absolute;
+    bottom: 70%;
+    left: 10%;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.btn{
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+    width: 100%;
+    height: 30px;
+}
+.btn input[type="button"]{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(211, 15, 211);
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+}
+img{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 500px;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.link2{ border: solid white;
+    border-radius: 20px;
+    width: 100px;
+    height: 15px;
+    padding: 5px;
+    text-align: center;
+    
+}
+.logo{
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+.links, .link2 :hover{
+    transition:  .2s;
+    color: aqua;
+}
